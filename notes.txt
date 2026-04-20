@@ -1,0 +1,14 @@
+Set and configuration
+---------------------
+
+    TS
+        install : npm i --save-dev typescript
+
+        tsconfig.json : tsc --init
+
+        tsc-watch:
+            - npm i --save-dev tsc-watch
+            - command : "tsc-watch \"node dist/server.js\"";
+
+    git
+        .gitignore : npx gitignore node
