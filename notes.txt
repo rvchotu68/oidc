@@ -12,3 +12,16 @@ Set and configuration
 
     git
         .gitignore : npx gitignore node
+
+
+Endpoints
+---------
+    1. /.well-known/oidc-configuration
+
+    2. /token
+
+    3. /user-info
+
+    4. /pubkeys
+
+    5./authorize

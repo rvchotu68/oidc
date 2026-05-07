@@ -14,7 +14,7 @@ const initServer = async () => {
   //db connect
 
   server.listen(PORT, () => {
-    console.log(`Server started listening on PORT: ${PORT}`);
+    console.log(`OIDC Server started listening on PORT: ${PORT}`);
   });
 };
 
